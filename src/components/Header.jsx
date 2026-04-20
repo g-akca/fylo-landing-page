@@ -5,6 +5,8 @@ import Navbar from "./Navbar";
 function Header() {
   return (
     <header className="px-1.25 flex justify-between items-center">
+      <h1 className="sr-only">Fylo</h1>
+      
       <img src={logoImg} alt="Fylo logo" className="w-20" />
 
       <Navbar />
