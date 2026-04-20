@@ -2,6 +2,7 @@ import profile1 from "/images/profile-1.jpg";
 import profile2 from "/images/profile-2.jpg";
 import profile3 from "/images/profile-3.jpg";
 import quoteIcon from "/images/bg-quotes.png";
+import TestimonialItem from "./TestimonialItem";
 
 function TestimonialSection() {
   const testimonials = [
@@ -28,6 +29,16 @@ function TestimonialSection() {
   return (
     <div className="relative px-7 pt-4.75 flex flex-col gap-6">
       <img src={quoteIcon} alt="Quote icon" className="absolute h-5" />
+
+      {testimonials.map(item => (
+        <TestimonialItem
+          key={item.name}
+          comment={item.comment}
+          avatarImg={item.avatarImg}
+          name={item.name}
+          position={item.position}
+        />
+      ))}
     </div>
   )
 }
