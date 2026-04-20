@@ -1,13 +1,18 @@
 import Header from "./components/Header";
+import HeroSection from "./components/HeroSection";
 import MainSection from "./components/MainSection";
 import Footer from "./components/Footer";
 
 function App() {
   return (
     <div className="text-base leading-base min-h-screen bg-navy-850">
-      <div>
+      <div className="px-5 py-6 flex flex-col gap-12">
         <Header />
-        <MainSection />
+
+        <div className="flex flex-col gap-35">
+          <HeroSection />
+          <MainSection />
+        </div>
       </div>
       
       <Footer />
