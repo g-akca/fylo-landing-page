@@ -5,7 +5,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="text-base leading-base min-h-screen bg-navy-850">
+    <div className="text-base leading-base text-white min-h-screen bg-navy-850">
       <div className="px-5 py-6 flex flex-col gap-12">
         <Header />
 
