@@ -1,24 +1,29 @@
 import FeatureItem from "./FeatureItem";
 
+import accessIcon from "/images/icon-access-anywhere.svg";
+import securityIcon from "/images/icon-security.svg";
+import collaborationIcon from "/images/icon-collaboration.svg";
+import anyFileIcon from "/images/icon-any-file.svg";
+
 function FeaturesSection() {
   const features = [
     {
-      imgUrl: "/images/icon-access-anywhere.svg",
+      img: accessIcon,
       title: "Access your files, anywhere",
       description: "The ability to use a smartphone, tablet, or computer to access your account means your files follow you everywhere."
     },
     {
-      imgUrl: "/images/icon-security.svg",
+      img: securityIcon,
       title: "Security you can trust",
       description: "2-factor authentication and user-controlled encryption are just a couple of the security features we allow to help secure your files."
     },
     {
-      imgUrl: "/images/icon-collaboration.svg",
+      img: collaborationIcon,
       title: "Real-time collaboration",
       description: "Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required."
     },
     {
-      imgUrl: "/images/icon-any-file.svg",
+      img: anyFileIcon,
       title: "Store any type of file",
       description: "Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all file types to be securely stored and shared."
     }
@@ -29,7 +34,7 @@ function FeaturesSection() {
       {features.map(item => (
         <FeatureItem
           key={item.title}
-          imgUrl={item.imgUrl}
+          img={item.img}
           title={item.title}
           description={item.description}
         />
