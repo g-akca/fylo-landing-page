@@ -1,3 +1,5 @@
+import FeatureItem from "./FeatureItem";
+
 function FeaturesSection() {
   const features = [
     {
@@ -24,6 +26,14 @@ function FeaturesSection() {
 
   return (
     <div className="flex flex-col gap-20">
+      {features.map(item => (
+        <FeatureItem
+          key={item.title}
+          imgUrl={item.imgUrl}
+          title={item.title}
+          description={item.description}
+        />
+      ))}
     </div>
   )
 }
