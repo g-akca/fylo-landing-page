@@ -1,7 +1,8 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF } from '@fortawesome/free-brands-svg-icons';
 import { faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
+
+import SocialMediaIcon from "./SocialMediaIcon";
 
 function Footer() {
   return (
@@ -17,9 +18,9 @@ function Footer() {
       </div>
 
       <div className="flex justify-center gap-2.5">
-        <FontAwesomeIcon icon={faFacebookF} />
-        <FontAwesomeIcon icon={faTwitter} />
-        <FontAwesomeIcon icon={faInstagram} />
+        <SocialMediaIcon icon={faFacebookF} />
+        <SocialMediaIcon icon={faTwitter} />
+        <SocialMediaIcon icon={faInstagram} />
       </div>
     </footer>
   )
