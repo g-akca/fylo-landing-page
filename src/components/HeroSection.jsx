@@ -17,7 +17,7 @@ function HeroSection() {
           type="button" 
           className="
             px-20 py-4 rounded-3xl bg-linear-150 from-[#5CD7D7] to-[#34A0CD] to-70% 
-            text-[14px] leading-[120%] font-raleway font-bold
+            text-[14px] leading-[120%] font-raleway font-bold shadow-[2px_3px_6px_rgba(0,0,0,0.16)]
           "
         >
           Get Started
