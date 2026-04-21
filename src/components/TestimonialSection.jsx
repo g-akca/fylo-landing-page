@@ -28,7 +28,7 @@ function TestimonialSection() {
 
   return (
     <div className="relative px-7 pt-4.75 flex flex-col gap-6">
-      <img src={quoteIcon} alt="Quote icon" className="absolute h-5" />
+      <img src={quoteIcon} alt="Quote icon" className="absolute top-0 left-8 h-5" />
 
       {testimonials.map(item => (
         <TestimonialItem
