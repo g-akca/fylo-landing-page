@@ -1,6 +1,6 @@
 function CTASection() {
   return (
-    <div className="px-6 py-10 bg-navy-850 rounded-[9px] flex flex-col gap-8 text-center shadow-[5px_5px_8px_rgba(0,0,0,0.25)] absolute -bottom-50">
+    <div className="px-6 py-10 w-full bg-navy-850 rounded-[9px] flex flex-col gap-8 text-center shadow-[5px_5px_8px_rgba(0,0,0,0.25)] absolute -bottom-50">
       <div className="flex flex-col gap-4">
         <h2 className="font-raleway font-bold text-[20px] leading-[120%]">Get early access today</h2>
         <p>It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>
