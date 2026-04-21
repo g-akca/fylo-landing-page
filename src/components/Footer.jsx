@@ -10,7 +10,7 @@ import SocialMediaIcon from "./SocialMediaIcon";
 
 function Footer() {
   return (
-    <footer className="bg-navy-950 px-6 py-12 flex flex-col gap-12">
+    <footer className="bg-navy-950 px-6 pt-65 pb-12 flex flex-col gap-12">
       <div className="flex flex-col gap-14">
         <div className="flex flex-col gap-10">
           <img src={logoImg} alt="Fylo logo" className="h-7.75 self-start" />
