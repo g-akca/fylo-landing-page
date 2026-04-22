@@ -30,7 +30,7 @@ function FeaturesSection() {
   ];
 
   return (
-    <div className="flex flex-col gap-20 tablet:grid tablet:grid-cols-2 tablet:gap-y-18">
+    <div className="max-w-226.75 self-center flex flex-col gap-20 tablet:grid tablet:grid-cols-2 tablet:gap-y-18 desktop:gap-40 desktop:gap-y-20">
       {features.map(item => (
         <FeatureItem
           key={item.title}
