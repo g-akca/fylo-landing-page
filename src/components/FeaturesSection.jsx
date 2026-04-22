@@ -30,7 +30,7 @@ function FeaturesSection() {
   ];
 
   return (
-    <div className="flex flex-col gap-20">
+    <div className="flex flex-col gap-20 tablet:grid tablet:grid-cols-2 tablet:gap-y-18">
       {features.map(item => (
         <FeatureItem
           key={item.title}
