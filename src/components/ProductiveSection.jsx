@@ -3,10 +3,10 @@ import arrowIcon from "/images/icon-arrow.svg";
 
 function ProductiveSection() {
   return (
-    <div className="flex flex-col gap-12 tablet:gap-18 items-center">
-      <img src={productiveImg} alt="Productive image" className="tablet:px-5.5" />
+    <div className="max-w-296.75 self-center flex flex-col desktop:flex-row gap-12 tablet:gap-18 desktop:gap-14 items-center">
+      <img src={productiveImg} alt="Productive image" className="tablet:px-5.5 desktop:px-0" />
 
-      <div className="flex flex-col gap-4 tablet:gap-6">
+      <div className="flex flex-col gap-4 tablet:gap-6 desktop:gap-8">
         <h3 className="font-bold font-raleway text-[16px] tablet:text-[40px] leading-[120%]">Stay productive, wherever you are</h3>
 
         <div className="flex flex-col gap-4 tablet:gap-6 items-start">
