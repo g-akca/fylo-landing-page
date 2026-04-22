@@ -14,12 +14,12 @@ function Footer() {
       <img src={logoImg} alt="Fylo logo" className="h-7.75 mb-10 tablet:mb-14" />
 
       <div className="tablet:grid tablet:grid-cols-[380px_172px] tablet:gap-14 tablet:justify-between tablet:justify-items-start">
-        <div className="grid grid-cols-[24px_1fr] gap-4 mb-4">
+        <div className="grid grid-cols-[24px_1fr] gap-4 mb-4 tablet:mb-0">
           <img src={locationIcon} alt="Location icon" />
           <p className="text-[16px] leading-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
         </div>
 
-        <div className="flex flex-col gap-4 mb-14">
+        <div className="flex flex-col gap-4 tablet:gap-6 mb-14 tablet:mb-0">
           <div className="grid grid-cols-[24px_1fr] gap-4">
             <img src={phoneIcon} alt="Phone icon" />
             <p>+1-543-123-4567</p>
@@ -31,22 +31,19 @@ function Footer() {
           </div>
         </div>
 
-        <div className="flex flex-col gap-10 text-[16px] leading-base mb-12">
-          <ul className="flex flex-col gap-4">
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Jobs</a></li>
-            <li><a href="#">Press</a></li>
-            <li><a href="#">Blog</a></li>
-          </ul>
+        <div className="flex flex-col gap-4 text-[16px] leading-base mb-12 tablet:mb-0 tablet:grid tablet:grid-cols-[70px_82px_54px] tablet:grid-rows-3 tablet:gap-x-20">
+          <a href="#" className="tablet:col-start-1 tablet:row-start-1">About Us</a>
+          <a href="#" className="tablet:col-start-1 tablet:row-start-2">Jobs</a>
+          <a href="#" className="tablet:col-start-1 tablet:row-start-3">Press</a>
 
-          <ul className="flex flex-col gap-4">
-            <li><a href="#">Contact Us</a></li>
-            <li><a href="#">Terms</a></li>
-            <li><a href="#">Privacy</a></li>
-          </ul>
+          <a href="#" className="mb-6 tablet:mb-0 tablet:col-start-2 tablet:row-start-1">Blog</a>
+          <a href="#" className="tablet:col-start-2 tablet:row-start-2">Contact Us</a>
+
+          <a href="#" className="tablet:col-start-3 tablet:row-start-1">Terms</a>
+          <a href="#" className="tablet:col-start-3 tablet:row-start-2">Privacy</a>
         </div>
 
-        <div className="flex justify-center gap-2.5">
+        <div className="flex justify-center gap-2.5 tablet:gap-4">
           <SocialMediaIcon icon={faFacebookF} />
           <SocialMediaIcon icon={faTwitter} />
           <SocialMediaIcon icon={faInstagram} />
