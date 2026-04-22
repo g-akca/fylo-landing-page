@@ -27,7 +27,7 @@ function TestimonialSection() {
   ];
 
   return (
-    <div className="relative self-center pt-4.75 tablet:pt-12 flex flex-col gap-6 tablet:gap-10 max-w-100 tablet:max-w-165 tablet:px-22">
+    <div className="relative self-center pt-4.75 tablet:pt-11.5 flex flex-col gap-6 tablet:gap-10 max-w-100 tablet:max-w-165 tablet:px-22.5">
       <img src={quoteIcon} alt="Quote icon" className="absolute top-0 tablet:top-2.5 left-1 tablet:left-19.5 w-6 tablet:w-14 tablet:-z-10" />
 
       {testimonials.map(item => (
