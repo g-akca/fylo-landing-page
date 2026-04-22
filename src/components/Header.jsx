@@ -7,7 +7,7 @@ function Header() {
     <header className="px-1.25 tablet:px-0 flex justify-between items-center">
       <h1 className="sr-only">Fylo</h1>
       
-      <img src={logoImg} alt="Fylo logo" className="w-20 tablet:w-auto tablet:h-10" />
+      <img src={logoImg} alt="Fylo logo" className="w-20 tablet:w-auto tablet:h-10 desktop:w-44 desktop:h-auto" />
 
       <Navbar />
     </header>
