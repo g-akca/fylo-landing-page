@@ -28,10 +28,10 @@ function App() {
         </picture>
       </div>
 
-      <div className="relative px-5 py-6 tablet:px-13.5 tablet:py-20 flex flex-col gap-12 tablet:gap-25 z-10">
+      <div className="relative px-5 py-6 tablet:px-13.5 tablet:py-20 desktop:px-20 flex flex-col gap-12 tablet:gap-25 desktop:gap-16 z-10">
         <Header />
 
-        <div className="flex flex-col gap-35 tablet:gap-37.5">
+        <div className="flex flex-col gap-35 tablet:gap-37.5 desktop:gap-36.5">
           <HeroSection />
           <MainSection />
         </div>
