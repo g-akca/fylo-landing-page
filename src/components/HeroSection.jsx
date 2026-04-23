@@ -19,7 +19,8 @@ function HeroSection() {
             className="
               px-20 py-4 rounded-3xl bg-linear-150 from-[#5CD7D7] to-[#34A0CD] to-80% 
               text-[14px] leading-[120%] font-raleway font-bold shadow-[2px_3px_6px_rgba(0,0,0,0.16)]
-              tablet:w-70 tablet:h-14 tablet:text-[16px] tablet:rounded-[28px]
+              tablet:w-70 tablet:h-14 tablet:text-[16px] tablet:rounded-[28px] 
+              hover:bg-none hover:bg-blue-250 cursor-pointer
             "
           >
             Get Started

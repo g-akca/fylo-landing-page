@@ -24,7 +24,7 @@ function CTASection() {
           className="
             px-18 desktop:px-6 py-4 rounded-3xl bg-linear-150 from-[#5CD7D7] to-[#34A0CD] to-80% 
             text-[14px] leading-[120%] font-raleway font-bold shadow-[2px_3px_6px_rgba(0,0,0,0.16)]
-            desktop:grow
+            desktop:grow hover:bg-none hover:bg-blue-250 cursor-pointer
           "
         >
           Get Started For Free
