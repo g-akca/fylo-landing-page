@@ -27,8 +27,8 @@ function TestimonialSection() {
   ];
 
   return (
-    <div className="relative self-center pt-4.75 tablet:pt-11.5 flex flex-col gap-6 tablet:gap-10 max-w-100 tablet:max-w-165 tablet:px-22.5">
-      <img src={quoteIcon} alt="Quote icon" className="absolute top-0 tablet:top-2.5 left-1 tablet:left-19.5 w-6 tablet:w-14 tablet:-z-10" />
+    <div className="relative self-center pt-4.75 tablet:pt-11.5 desktop:pt-14.75 flex flex-col desktop:flex-row gap-6 tablet:gap-10 max-w-100 tablet:max-w-165 desktop:max-w-295 tablet:px-22.5 desktop:px-2">
+      <img src={quoteIcon} alt="Quote icon" className="absolute top-0 tablet:top-2.5 desktop:top-5.5 left-1 tablet:left-19.5 desktop:left-0 w-6 tablet:w-14 tablet:-z-10" />
 
       {testimonials.map(item => (
         <TestimonialItem
