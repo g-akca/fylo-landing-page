@@ -31,16 +31,16 @@ function Footer() {
           </div>
         </div>
 
-        <div className="flex flex-col gap-4 text-[16px] leading-base mb-12 tablet:mb-0 tablet:grid tablet:grid-cols-[70px_82px_54px] tablet:grid-rows-3 tablet:gap-x-20 desktop:grid-cols-[69px_81px] desktop:grid-rows-4">
-          <a href="#" className="tablet:col-start-1 tablet:row-start-1 desktop:col-start-1 desktop:row-start-1">About Us</a>
-          <a href="#" className="tablet:col-start-1 tablet:row-start-2 desktop:col-start-1 desktop:row-start-2">Jobs</a>
-          <a href="#" className="tablet:col-start-1 tablet:row-start-3 desktop:col-start-1 desktop:row-start-3">Press</a>
+        <div className="flex flex-col gap-4 text-[16px] leading-base mb-12 tablet:mb-0 tablet:grid tablet:grid-cols-[74px_88px_58px] tablet:grid-rows-3 tablet:gap-x-20 desktop:grid-cols-[73px_88px] desktop:grid-rows-4">
+          <a href="#" className="tablet:col-start-1 tablet:row-start-1 desktop:col-start-1 desktop:row-start-1 hover:font-bold transition-all">About Us</a>
+          <a href="#" className="tablet:col-start-1 tablet:row-start-2 desktop:col-start-1 desktop:row-start-2 hover:font-bold transition-all">Jobs</a>
+          <a href="#" className="tablet:col-start-1 tablet:row-start-3 desktop:col-start-1 desktop:row-start-3 hover:font-bold transition-all">Press</a>
 
-          <a href="#" className="mb-6 tablet:mb-0 tablet:col-start-2 tablet:row-start-1 desktop:col-start-1 desktop:row-start-4">Blog</a>
-          <a href="#" className="tablet:col-start-2 tablet:row-start-2 desktop:col-start-2 desktop:row-start-1">Contact Us</a>
+          <a href="#" className="mb-6 tablet:mb-0 tablet:col-start-2 tablet:row-start-1 desktop:col-start-1 desktop:row-start-4 hover:font-bold transition-all">Blog</a>
+          <a href="#" className="tablet:col-start-2 tablet:row-start-2 desktop:col-start-2 desktop:row-start-1 hover:font-bold transition-all">Contact Us</a>
 
-          <a href="#" className="tablet:col-start-3 tablet:row-start-1 desktop:col-start-2 desktop:row-start-2">Terms</a>
-          <a href="#" className="tablet:col-start-3 tablet:row-start-2 desktop:col-start-2 desktop:row-start-3">Privacy</a>
+          <a href="#" className="tablet:col-start-3 tablet:row-start-1 desktop:col-start-2 desktop:row-start-2 hover:font-bold transition-all">Terms</a>
+          <a href="#" className="tablet:col-start-3 tablet:row-start-2 desktop:col-start-2 desktop:row-start-3 hover:font-bold transition-all">Privacy</a>
         </div>
 
         <div className="flex justify-center gap-2.5 tablet:gap-4">
