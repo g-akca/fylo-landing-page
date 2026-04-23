@@ -1,5 +1,6 @@
 import productiveImg from "/images/illustration-stay-productive.png";
 import arrowIcon from "/images/icon-arrow.svg";
+import ArrowIcon from "./ArrowIcon";
 
 function ProductiveSection() {
   return (
@@ -15,9 +16,9 @@ function ProductiveSection() {
             <p>Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.</p>
           </div>
           
-          <button type="button" className="text-blue-300 border-b border-blue-300 flex gap-2 items-center">
+          <button type="button" className="text-blue-300 border-b border-blue-300 flex gap-2 items-center hover:text-white hover:border-white cursor-pointer transition-all">
             <span className="tablet:text-[16px] tablet:leading-base">See how Fylo works</span>
-            <img src={arrowIcon} alt="Right arrow icon" />
+            <ArrowIcon className="hover:text-white" />
           </button>
         </div>
       </div>
