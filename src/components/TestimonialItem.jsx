@@ -1,6 +1,6 @@
 function TestimonialItem({ comment, avatarImg, name, position }) {
   return (
-    <div className="bg-navy-800 rounded-sm p-6 tablet:p-10 flex flex-col gap-4 tablet:gap-6 items-start">
+    <div className="bg-navy-800 rounded-sm p-6 tablet:p-10 desktop:px-6 desktop:py-8 flex flex-col gap-4 tablet:gap-6 items-start">
       <p className="text-[10px] tablet:text-base leading-[180%] tablet:leading-base tracking-[0.3px] tablet:tracking-0">{comment}</p>
 
       <div className="flex items-center gap-2">
